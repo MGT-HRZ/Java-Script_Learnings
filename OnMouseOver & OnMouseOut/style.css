@@ -1,0 +1,23 @@
+* {
+	font-family: arial;
+}
+
+body {
+	background-color: pink;
+}
+
+#B1 {
+	width: 13%;
+	margin-top: 3%;
+}
+
+#txt {
+	font-weight: bold;
+	font-size: 1.5vw;
+}
+
+.table1 {
+	text-align: center;
+	border: 4px solid black;
+	background-color: white;
+}
