@@ -1,0 +1,745 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile-style.css">
+    <script src="script.js" defer></script>
+    <title>JOURNEY</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="top">
+        <div class="title">
+            <div class="topbar">
+                <div class="row">
+                    <div class="col-logo">
+                        <a href="index.html"><img src="img/logo.png" id="logo"></a>
+                    </div>
+                    <div class="home-link">
+                        <a href="index.html" id="link-title">JOURNEY</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav>   
+            <ul>
+                <li><a href="#" id="hamburger">&#9776;</a></li>
+                <li><a href="index.html" id="nav-link"><span id="point_home">Home</span></a></li>
+                <li><a href="#" id="nav-link">Top Destinations</a></li>
+                <li><a href="#" id="nav-link">Recommended Places</a></li>
+                <li><a href="#" id="nav-link">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- HEADER -->
+
+    <!-- WELCOME / FORM -->
+    <section class="bg-sec">
+        <div class="img-overlay"><img src="img/banner.jpg" id="image_bckgrd"></div>
+        <div class="room-form">
+            <center>
+            <p id="txt1">LET'S BEGIN</p>
+            <p><img src="img/dots-3.png" id="dots"></p>
+            <p id="txt2">We assist you to choose the best.</p>
+            <p><a href="#"><img src="img/down-btn.png" id="dwn-btn"></a></p>
+            <div class="gradient1">
+            <div class="form1">
+                <form action="">
+                    <p id="txt3"><label>Choose Your Destination</label></p>
+                    <p id="input1"><input type="text" placeholder="Type your destination..."></p>
+
+                    <p id="txt4"><label>Check In Date</label></p>
+                    <p id="input2"><input type="text" placeholder="Check In"></p>
+
+                    <p id="txt5"><label>Check Out Date</label></p>
+                    <p id="input3"><input type="text" placeholder="Check Out"></p>
+
+                    <p id="txt6"><label>How many rooms?</label></p>
+                    <p id="input4">
+                        <select name="room" id="room-list">
+                            <option>1 Room</option>
+                            <option>2 Room</option>
+                            <option>3 Room</option>
+                            <option>4 Room</option>
+                        </select>
+                    </p>
+
+                    <p id="txt7"><label>Adult</label></p>
+                    <p id="input5">
+                        <select name="adult" id="adult-list">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                        </select>
+                    </p>
+
+                    <p id="txt8"><label>Children</label></p>
+                    <p id="input6">
+                        <select name="children" id="child-list">
+                            <option>0</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                        </select>
+                    </p>
+
+                    <button id="chk-btn" type="submit">CHECK AVAILABILITY</button>
+                </form>
+            </div>
+            </div>
+            </center>
+        </div>
+    </section>
+    <!-- WELCOME / FORM -->
+
+    <!-- EXPLORE -->
+    <section class="bg-color1">
+        <center>
+        <div class="explore">
+            <p id="title2">YOUR <span id="txt-bold1">JOURNEY</span> IS OUR PRIORITY</p>
+
+            <p id="txt9">Nullam auctor, sapien sit amet lacinia euismod, lorem magna lobortis massa, in tincidunt mi metus quis lectus. Duis nec lobortis velit. Vivamus id magna vulputate, tempor ante eget, tempus augue. Maecenas ultricies neque magna.</p>
+            
+            <p id="space1"><button id="explr-btn">CONTINUE EXPLORE</button></p>
+        </div>
+        </center>
+    </section>
+    <!-- EXPLORE -->
+
+    <!-- IMAGE SLIDER -->
+    <section>
+        <!-- SLIDER 1 -->
+        <div class="txtfill1">
+            <p>
+                <span id="topic">Europe's most visited places</span>
+                <br><br>
+                <span id="elebs">Aenean in lacus nec dolor fermentum congue. Maecenas ut velit pharetra, pharetra tortor sit amet, vulputate sem. Vestibulum mi nibh, faucibus ac eros id, sagittis tincidunt velit. Proin interdum ullamcorper faucibus. Ut mi nunc, sollicitudin non pulvinar id, sagittis eget diam.</span>
+                <br><br>
+                <button id="read-btn">CONTINUE READING</button>
+            </p> 
+        </div>
+        <div class="slider" data-slider>
+            <button class="slider-button prev" id="btn-slid" data-slider-button="prev">&#8678;</button>
+            <button class="slider-button next" data-slider-button="next">&#8680;</button>
+            <div data-slides>
+                <div class="slides" data-active>
+                    <img src="slider/slider-img-01.jpg" alt="Image 1">
+                </div>
+                <div class="slides">
+                    <img src="slider/slider-img-02.jpg" alt="Image 2" id="slid1">
+                </div>
+                <div class="slides">
+                    <img src="slider/slider-img-03.jpg" alt="Image 3" id="slid1">
+                </div>
+            </div>
+        </div>
+        <!-- SLIDER 1 -->
+
+        <!-- SLIDER 2 -->
+        <div class="txtfill2">
+            <p>
+                <span id="topic">Asia's most popular places</span>
+                <br><br>
+                <span id="elebs">Vivamus in massa ullamcorper nunc auctor accumsan ac at arcu. Donec sagittis mattis pharetra. Proin commodo, ante et volutpat pulvinar, arcu arcu ullamcorper diam, id maximus sem tellus id sem. Suspendisse eget rhoncus diam. Fusce urna elit, porta nec ullamcorper id.</span>
+                <br><br>
+                <button id="read-btn2">CONTINUE READING</button>
+            </p> 
+        </div>
+        <div class="slider2" data-slider>
+            <button class="slider2-button prev" data-slider-button="prev">&#8678;</button>
+            <button class="slider2-button next" data-slider-button="next">&#8680;</button>
+            <div data-slides>
+                <div class="slides2">
+                    <img src="slider/slider-img-01.jpg" alt="Image 1">
+                </div>
+                <div class="slides2" data-active>
+                    <img src="slider/slider-img-02.jpg" alt="Image 2" id="slid2">
+                </div>
+                <div class="slides2">
+                    <img src="slider/slider-img-03.jpg" alt="Image 3" id="slid2">
+                </div>
+            </div>
+        </div>
+        <!-- SLIDER 2 -->
+
+        <!-- SLIDER 3 -->
+        <div class="txtfill3">
+            <p>
+                <span id="topic">America's most famous places</span>
+                <br><br>
+                <span id="elebs">Donec nec laoreet diam, at vehicula ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse nec dapibus nunc, quis viverra metus. Morbi eget diam gravida, euismod magna vel, tempor urna.</span>
+                <br><br>
+                <button id="read-btn3">CONTINUE READING</button>
+            </p> 
+        </div>
+        <div class="slider3" data-slider>
+            <button class="slider3-button prev" data-slider-button="prev">&#8678;</button>
+            <button class="slider3-button next" data-slider-button="next">&#8680;</button>
+            <div data-slides>
+                <div class="slides3">
+                    <img src="slider/slider-img-01.jpg" alt="Image 1">
+                </div>
+                <div class="slides3">
+                    <img src="slider/slider-img-02.jpg" alt="Image 2" id="slid3">
+                </div>
+                <div class="slides3" data-active>
+                    <img src="slider/slider-img-03.jpg" alt="Image 3" id="slid3">
+                </div>
+            </div>
+        </div>
+        <!-- SLIDER 3 -->
+    </section>
+    <!-- IMAGE SLIDER -->
+
+    <!-- WORLD NAVBAR SLIDER -->
+    <section>
+        <div class="world-nav">
+            <center>
+                <div id="shift-btn"></div>
+                <button type="button" class="toggle-btn" onclick="noa()">
+                    <img id="world-ico" src="img/north-america.png">
+                    <br>
+                    <label id="world-txt">NORTH AMERICA</label>
+                </button>
+                <button type="button" class="toggle-btn" onclick="soa()">
+                    <img id="world-ico" src="img/south-america.png">
+                    <br>
+                    <label id="world-txt">SOUTH AMERICA</label>
+                </button>
+                <button type="button" class="toggle-btn" onclick="eu()">
+                    <img id="world-ico" src="img/europe.png">
+                    <br>
+                    <label id="world-txt">EUROPE</label>
+                </button>
+                <button type="button" class="toggle-btn" onclick="asi()">
+                    <img id="world-ico" src="img/asia.png">
+                    <br>
+                    <label id="world-txt">ASIA</label>
+                </button>
+                <button type="button" class="toggle-btn" onclick="afr()">
+                    <img id="world-ico" src="img/africa.png">
+                    <br>
+                    <label id="world-txt">AFRICA</label>
+                </button>
+                <button type="button" class="toggle-btn" onclick="aus()">
+                    <img id="world-ico" src="img/australia.png">
+                    <br>
+                    <label id="world-txt">AUSTRALIA</label>
+                </button>
+                <button type="button" class="toggle-btn" onclick="ant()">
+                    <img id="world-ico" src="img/antartica.png">
+                    <br>
+                    <label id="world-txt">ANTARTICA</label>
+                </button>
+            </center>
+        </div>
+    </section>
+    <!-- WORLD NAVBAR SLIDER -->
+
+    <!-- GROUP CONTENT SLIDER -->
+    <section class="group-slider">
+    <div id="box1" class="group">
+        <div class="box-content">
+            <img src="slider/slider-img-06.jpg">
+            <p id="info">
+                <span id="topic2">NORTH GARDEN RESORT</span>
+                <br>
+                <span id="sub-top">One North</span>
+                <br><br>
+                <span id="elebs2">Sed egestas, odio nec bibendum mattis, quam odio hendrerit risus, eu varius eros lacus sit amet lectus. Donec blandit luctus dictum...</span>
+            </p>
+            <img id="curve" src="img/button-curve.png">
+            <p id="cost">
+                <span id="price">$110</span>
+                <br><br>
+                <a id="read-btn4" href="#">CONTINUE READING</a>
+            </p>
+        </div>
+        <div class="box-content">
+            <img src="slider/slider-img-07.jpg">
+            <p id="info">
+                <span id="topic2">FELIS NEC DIGNISSIM</span>
+                <br>
+                <span id="sub-top">Two North</span>
+                <br><br>
+                <span id="elebs2">Sed egestas, odio nec bibendum mattis, quam odio hendrerit risus, eu varius eros lacus sit amet lectus. Donec blandit luctus dictum...</span>
+            </p>
+            <img id="curve" src="img/button-curve.png">
+            <p id="cost">
+                <span id="price">$120</span>
+                <br><br>
+                <a id="read-btn4" href="#">CONTINUE READING</a>
+            </p>
+        </div>
+        <div class="box-content">
+            <img src="slider/slider-img-05.jpg">
+            <p id="info">
+                <span id="topic2">SED FERMENTUM JUSTO</span>
+                <br>
+                <span id="sub-top">Three North</span>
+                <br><br>
+                <span id="elebs2">Sed egestas, odio nec bibendum mattis, quam odio hendrerit risus, eu varius eros lacus sit amet lectus. Donec blandit luctus dictum...</span>
+            </p>
+            <img id="curve" src="img/button-curve.png">
+            <p id="cost">
+                <span id="price">$130</span>
+                <br><br>
+                <a id="read-btn4" href="#">CONTINUE READING</a>
+            </p>
+        </div>
+        <div class="box-content">
+            <img src="slider/slider-img-04.jpg">
+            <p id="info">
+                <span id="topic2">MAECENAS ULTRICIES NEQUE</span>
+                <br>
+                <span id="sub-top">Fourth North</span>
+                <br><br>
+                <span id="elebs2">Sed egestas, odio nec bibendum mattis, quam odio hendrerit risus, eu varius eros lacus sit amet lectus. Donec blandit luctus dictum...</span>
+            </p>
+            <img id="curve" src="img/button-curve.png">
+            <p id="cost">
+                <span id="price">$140</span>
+                <br><br>
+                <a id="read-btn4" href="#">CONTINUE READING</a>
+            </p>
+        </div>
+    </div>
+    <div id="box2" class="group">
+        <div class="box-content">
+            <img src="slider/slider-img-06.jpg">
+            <p id="info">
+                <span id="topic2">SOUTH RESORT HOTEL</span>
+                <br>
+                <span id="sub-top">South One</span>
+                <br><br>
+                <span id="elebs2">Sed egestas, odio nec bibendum mattis, quam odio hendrerit risus, eu varius eros lacus sit amet lectus. Donec blandit luctus dictum...</span>
+            </p>
+            <img id="curve" src="img/button-curve.png">
+            <p id="cost">
+                <span id="price">$220</span>
+                <br><br>
+                <a id="read-btn4" href="#">CONTINUE READING</a>
+            </p>
+        </div>
+        <div class="box-content">
+            <img src="slider/slider-img-07.jpg">
+            <p id="info">
+                <span id="topic2">AENEAN AC ANTE NEC DIAM</span>
+                <br>
+                <span id="sub-top">South Second</span>
+                <br><br>
+                <span id="elebs2">Sed egestas, odio nec bibendum mattis, quam odio hendrerit risus, eu varius eros lacus sit amet lectus. Donec blandit luctus dictum...</span>
+            </p>
+            <img id="curve" src="img/button-curve.png">
+            <p id="cost">
+                <span id="price">$230</span>
+                <br><br>
+                <a id="read-btn4" href="#">CONTINUE READING</a>
+            </p>
+        </div>
+        <div class="box-content">
+            <img src="slider/slider-img-05.jpg">
+            <p id="info">
+                <span id="topic2">SUSPENDISSE NEC DAPIBUS</span>
+                <br>
+                <span id="sub-top">South Third</span>
+                <br><br>
+                <span id="elebs2">Sed egestas, odio nec bibendum mattis, quam odio hendrerit risus, eu varius eros lacus sit amet lectus. Donec blandit luctus dictum...</span>
+            </p>
+            <img id="curve" src="img/button-curve.png">
+            <p id="cost">
+                <span id="price">$240</span>
+                <br><br>
+                <a id="read-btn4" href="#">CONTINUE READING</a>
+            </p>
+        </div>
+        <div class="box-content">
+            <img src="slider/slider-img-04.jpg">
+            <p id="info">
+                <span id="topic2">ALIQUAM VIVERRA MI AT NISL</span>
+                <br>
+                <span id="sub-top">South Fourth</span>
+                <br><br>
+                <span id="elebs2">Sed egestas, odio nec bibendum mattis, quam odio hendrerit risus, eu varius eros lacus sit amet lectus. Donec blandit luctus dictum...</span>
+            </p>
+            <img id="curve" src="img/button-curve.png">
+            <p id="cost">
+                <span id="price">$250</span>
+                <br><br>
+                <a id="read-btn4" href="#">CONTINUE READING</a>
+            </p>
+        </div>
+    </div>
+    <div id="box3" class="group">
+        <div class="box-content">
+            <img src="slider/slider-img-06.jpg">
+            <p id="info">
+                <span id="topic2">EUROPE HOTEL</span>
+                <br>
+                <span id="sub-top">Venecia, Italy</span>
+                <br><br>
+                <span id="elebs2">Sed egestas, odio nec bibendum mattis, quam odio hendrerit risus, eu varius eros lacus sit amet lectus. Donec blandit luctus dictum...</span>
+            </p>
+            <img id="curve" src="img/button-curve.png">
+            <p id="cost">
+                <span id="price">$330</span>
+                <br><br>
+                <a id="read-btn4" href="#">CONTINUE READING</a>
+            </p>
+        </div>
+        <div class="box-content">
+            <img src="slider/slider-img-07.jpg">
+            <p id="info">
+                <span id="topic2">IN VIVERRA ENIM TURPIS</span>
+                <br>
+                <span id="sub-top">Paris, France</span>
+                <br><br>
+                <span id="elebs2">Sed egestas, odio nec bibendum mattis, quam odio hendrerit risus, eu varius eros lacus sit amet lectus. Donec blandit luctus dictum...</span>
+            </p>
+            <img id="curve" src="img/button-curve.png">
+            <p id="cost">
+                <span id="price">$340</span>
+                <br><br>
+                <a id="read-btn4" href="#">CONTINUE READING</a>
+            </p>
+        </div>
+        <div class="box-content">
+            <img src="slider/slider-img-05.jpg">
+            <p id="info">
+                <span id="topic2">VOLUTPAT PELLENTESQUE</span>
+                <br>
+                <span id="sub-top">Barcelona, Spain</span>
+                <br><br>
+                <span id="elebs2">Sed egestas, odio nec bibendum mattis, quam odio hendrerit risus, eu varius eros lacus sit amet lectus. Donec blandit luctus dictum...</span>
+            </p>
+            <img id="curve" src="img/button-curve.png">
+            <p id="cost">
+                <span id="price">$350</span>
+                <br><br>
+                <a id="read-btn4" href="#">CONTINUE READING</a>
+            </p>
+        </div>
+        <div class="box-content">
+            <img src="slider/slider-img-04.jpg">
+            <p id="info">
+                <span id="topic2">GRAND RESORT PASHA</span>
+                <br>
+                <span id="sub-top">Istanbul, Turkey</span>
+                <br><br>
+                <span id="elebs2">Sed egestas, odio nec bibendum mattis, quam odio hendrerit risus, eu varius eros lacus sit amet lectus. Donec blandit luctus dictum...</span>
+            </p>
+            <img id="curve" src="img/button-curve.png">
+            <p id="cost">
+                <span id="price">$360</span>
+                <br><br>
+                <a id="read-btn4" href="#">CONTINUE READING</a>
+            </p>
+        </div>
+    </div>
+    <div id="box4" class="group">
+        <div class="box-content">
+            <img src="slider/slider-img-06.jpg">
+            <p id="info">
+                <span id="topic2">ASIA RESORT HOTEL</span>
+                <br>
+                <span id="sub-top">Singapore</span>
+                <br><br>
+                <span id="elebs2">Sed egestas, odio nec bibendum mattis, quam odio hendrerit risus, eu varius eros lacus sit amet lectus. Donec blandit luctus dictum...</span>
+            </p>
+            <img id="curve" src="img/button-curve.png">
+            <p id="cost">
+                <span id="price">$440</span>
+                <br><br>
+                <a id="read-btn4" href="#">CONTINUE READING</a>
+            </p>
+        </div>
+        <div class="box-content">
+            <img src="slider/slider-img-07.jpg">
+            <p id="info">
+                <span id="topic2">NULLAM EGET EST A NISL</span>
+                <br>
+                <span id="sub-top">Yangon, Myanmar</span>
+                <br><br>
+                <span id="elebs2">Sed egestas, odio nec bibendum mattis, quam odio hendrerit risus, eu varius eros lacus sit amet lectus. Donec blandit luctus dictum...</span>
+            </p>
+            <img id="curve" src="img/button-curve.png">
+            <p id="cost">
+                <span id="price">$450</span>
+                <br><br>
+                <a id="read-btn4" href="#">CONTINUE READING</a>
+            </p>
+        </div>
+        <div class="box-content">
+            <img src="slider/slider-img-05.jpg">
+            <p id="info">
+                <span id="topic2">PROIN INTERDUM ULLAMCORPER</span>
+                <br>
+                <span id="sub-top">Bangkok, Thailand</span>
+                <br><br>
+                <span id="elebs2">Sed egestas, odio nec bibendum mattis, quam odio hendrerit risus, eu varius eros lacus sit amet lectus. Donec blandit luctus dictum...</span>
+            </p>
+            <img id="curve" src="img/button-curve.png">
+            <p id="cost">
+                <span id="price">$460</span>
+                <br><br>
+                <a id="read-btn4" href="#">CONTINUE READING</a>
+            </p>
+        </div>
+        <div class="box-content">
+            <img src="slider/slider-img-04.jpg">
+            <p id="info">
+                <span id="topic2">LOREM IPSUM DOLOR SIT</span>
+                <br>
+                <span id="sub-top">Vientiane, Laos</span>
+                <br><br>
+                <span id="elebs2">Sed egestas, odio nec bibendum mattis, quam odio hendrerit risus, eu varius eros lacus sit amet lectus. Donec blandit luctus dictum...</span>
+            </p>
+            <img id="curve" src="img/button-curve.png">
+            <p id="cost">
+                <span id="price">$470</span>
+                <br><br>
+                <a id="read-btn4" href="#">CONTINUE READING</a>
+            </p>
+        </div>
+    </div>
+    <div id="box5" class="group">
+        <div class="box-content">
+            <img src="slider/slider-img-06.jpg">
+            <p id="info">
+                <span id="topic2">AFRICA RESORT HOTEL</span>
+                <br>
+                <span id="sub-top">First City</span>
+                <br><br>
+                <span id="elebs2">Sed egestas, odio nec bibendum mattis, quam odio hendrerit risus, eu varius eros lacus sit amet lectus. Donec blandit luctus dictum...</span>
+            </p>
+            <img id="curve" src="img/button-curve.png">
+            <p id="cost">
+                <span id="price">$550</span>
+                <br><br>
+                <a id="read-btn4" href="#">CONTINUE READING</a>
+            </p>
+        </div>
+        <div class="box-content">
+            <img src="slider/slider-img-07.jpg">
+            <p id="info">
+                <span id="topic2">AENEAN AC MAGNA DIAM</span>
+                <br>
+                <span id="sub-top">Second City</span>
+                <br><br>
+                <span id="elebs2">Sed egestas, odio nec bibendum mattis, quam odio hendrerit risus, eu varius eros lacus sit amet lectus. Donec blandit luctus dictum...</span>
+            </p>
+            <img id="curve" src="img/button-curve.png">
+            <p id="cost">
+                <span id="price">$560</span>
+                <br><br>
+                <a id="read-btn4" href="#">CONTINUE READING</a>
+            </p>
+        </div>
+        <div class="box-content">
+            <img src="slider/slider-img-05.jpg">
+            <p id="info">
+                <span id="topic2">BEACH BARBECUE SUNSET</span>
+                <br>
+                <span id="sub-top">Third City</span>
+                <br><br>
+                <span id="elebs2">Sed egestas, odio nec bibendum mattis, quam odio hendrerit risus, eu varius eros lacus sit amet lectus. Donec blandit luctus dictum...</span>
+            </p>
+            <img id="curve" src="img/button-curve.png">
+            <p id="cost">
+                <span id="price">$570</span>
+                <br><br>
+                <a id="read-btn4" href="#">CONTINUE READING</a>
+            </p>
+        </div>
+        <div class="box-content">
+            <img src="slider/slider-img-04.jpg">
+            <p id="info">
+                <span id="topic2">GRAND RESORT PASHA</span>
+                <br>
+                <span id="sub-top">Fourth City</span>
+                <br><br>
+                <span id="elebs2">Sed egestas, odio nec bibendum mattis, quam odio hendrerit risus, eu varius eros lacus sit amet lectus. Donec blandit luctus dictum...</span>
+            </p>
+            <img id="curve" src="img/button-curve.png">
+            <p id="cost">
+                <span id="price">$580</span>
+                <br><br>
+                <a id="read-btn4" href="#">CONTINUE READING</a>
+            </p>
+        </div>
+    </div>
+    <div id="box6" class="group">
+        <div class="box-content">
+            <img src="slider/slider-img-06.jpg">
+            <p id="info">
+                <span id="topic2">HOTEL AUSTRALIA</span>
+                <br>
+                <span id="sub-top">City One</span>
+                <br><br>
+                <span id="elebs2">Sed egestas, odio nec bibendum mattis, quam odio hendrerit risus, eu varius eros lacus sit amet lectus. Donec blandit luctus dictum...</span>
+            </p>
+            <img id="curve" src="img/button-curve.png">
+            <p id="cost">
+                <span id="price">$660</span>
+                <br><br>
+                <a id="read-btn4" href="#">CONTINUE READING</a>
+            </p>
+        </div>
+        <div class="box-content">
+            <img src="slider/slider-img-07.jpg">
+            <p id="info">
+                <span id="topic2">PROIN INTERDUM ULLAMCORPER</span>
+                <br>
+                <span id="sub-top">City Two</span>
+                <br><br>
+                <span id="elebs2">Sed egestas, odio nec bibendum mattis, quam odio hendrerit risus, eu varius eros lacus sit amet lectus. Donec blandit luctus dictum...</span>
+            </p>
+            <img id="curve" src="img/button-curve.png">
+            <p id="cost">
+                <span id="price">$560</span>
+                <br><br>
+                <a id="read-btn4" href="#">CONTINUE READING</a>
+            </p>
+        </div>
+        <div class="box-content">
+            <img src="slider/slider-img-05.jpg">
+            <p id="info">
+                <span id="topic2">BEACH BARBECUE SUNSET</span>
+                <br>
+                <span id="sub-top">City Three</span>
+                <br><br>
+                <span id="elebs2">Sed egestas, odio nec bibendum mattis, quam odio hendrerit risus, eu varius eros lacus sit amet lectus. Donec blandit luctus dictum...</span>
+            </p>
+            <img id="curve" src="img/button-curve.png">
+            <p id="cost">
+                <span id="price">$640</span>
+                <br><br>
+                <a id="read-btn4" href="#">CONTINUE READING</a>
+            </p>
+        </div>
+        <div class="box-content">
+            <img src="slider/slider-img-04.jpg">
+            <p id="info">
+                <span id="topic2">GRAND RESORT PASHA</span>
+                <br>
+                <span id="sub-top">City Four</span>
+                <br><br>
+                <span id="elebs2">Sed egestas, odio nec bibendum mattis, quam odio hendrerit risus, eu varius eros lacus sit amet lectus. Donec blandit luctus dictum...</span>
+            </p>
+            <img id="curve" src="img/button-curve.png">
+            <p id="cost">
+                <span id="price">$630</span>
+                <br><br>
+                <a id="read-btn4" href="#">CONTINUE READING</a>
+            </p>
+        </div>
+    </div>
+    <div id="box7" class="group">
+        <div class="box-content">
+            <img src="slider/slider-img-06.jpg">
+            <p id="info">
+                <span id="topic2">ANTARTICA RESORT</span>
+                <br>
+                <span id="sub-top">Ant City One</span>
+                <br><br>
+                <span id="elebs2">Sed egestas, odio nec bibendum mattis, quam odio hendrerit risus, eu varius eros lacus sit amet lectus. Donec blandit luctus dictum...</span>
+            </p>
+            <img id="curve" src="img/button-curve.png">
+            <p id="cost">
+                <span id="price">$770</span>
+                <br><br>
+                <a id="read-btn4" href="#">CONTINUE READING</a>
+            </p>
+        </div>
+        <div class="box-content">
+            <img src="slider/slider-img-07.jpg">
+            <p id="info">
+                <span id="topic2">PULVINAR SEMPER</span>
+                <br>
+                <span id="sub-top">Ant City Two</span>
+                <br><br>
+                <span id="elebs2">Sed egestas, odio nec bibendum mattis, quam odio hendrerit risus, eu varius eros lacus sit amet lectus. Donec blandit luctus dictum...</span>
+            </p>
+            <img id="curve" src="img/button-curve.png">
+            <p id="cost">
+                <span id="price">$230</span>
+                <br><br>
+                <a id="read-btn4" href="#">CONTINUE READING</a>
+            </p>
+        </div>
+        <div class="box-content">
+            <img src="slider/slider-img-05.jpg">
+            <p id="info">
+                <span id="topic2">CRAS VEL SAPIEN</span>
+                <br>
+                <span id="sub-top">Ant City Three</span>
+                <br><br>
+                <span id="elebs2">Sed egestas, odio nec bibendum mattis, quam odio hendrerit risus, eu varius eros lacus sit amet lectus. Donec blandit luctus dictum...</span>
+            </p>
+            <img id="curve" src="img/button-curve.png">
+            <p id="cost">
+                <span id="price">$140</span>
+                <br><br>
+                <a id="read-btn4" href="#">CONTINUE READING</a>
+            </p>
+        </div>
+        <div class="box-content">
+            <img src="slider/slider-img-04.jpg">
+            <p id="info">
+                <span id="topic2">NULLAM EGET EST</span>
+                <br>
+                <span id="sub-top">Ant City Four</span>
+                <br><br>
+                <span id="elebs2">Sed egestas, odio nec bibendum mattis, quam odio hendrerit risus, eu varius eros lacus sit amet lectus. Donec blandit luctus dictum...</span>
+            </p>
+            <img id="curve" src="img/button-curve.png">
+            <p id="cost">
+                <span id="price">$190</span>
+                <br><br>
+                <a id="read-btn4" href="#">CONTINUE READING</a>
+            </p>
+        </div>
+    </div>
+    </section>
+    <!-- GROUP CONTENT SLIDER -->
+
+    <!-- MAP / MESSAGE FORM -->
+    <section>
+        <center>
+            <button id="more-btn" type="submit">SHOW MORE PLACES</button>
+            <img src="img/tm-loc.png" class="map_bckgrd">
+                
+        </center>
+        <div class="form2">
+            <div class="adjust">
+                <form action="#">
+                    <p><span id="pad1"><input type="text" id="inp1" placeholder="Name"></span>
+                    <input type="text" id="inp2" placeholder="Email"></p>
+
+                    <p id="pad2"><input type="text" id="inp3" placeholder="Subject"></p>
+
+                    <p id="pad3"><textarea id="inp4" rows="10" placeholder="Message"></textarea></p>
+
+                    <p id="pad4"><button id="message-btn" type="submit">SEND MESSAGE NOW</button></p>
+                </form>
+            </div>    
+        </div>
+    </section>
+    <!-- MAP / MESSAGE FORM -->
+
+    <!-- FOOTER -->
+    <footer id="footer-txt">
+        <p id="footer-font">Copyright &copy; 2022 JOURNEY</p>
+    </footer>
+    <!-- FOOTER -->
+</body>
+</html>

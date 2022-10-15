@@ -1,0 +1,341 @@
+/*
+    Colors :
+    #69c6ba = green
+    #c66995 = purple
+    #179180 = dark green
+    #efefef = light dark white
+    #f5f5f5 = heavy white
+*/
+
+@font-face {
+    font-family: 'noto_sans';
+    src: url('font/Noto_Sans/NotoSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'noto_sans-light';
+    src: url('font/Noto_Sans/NotoSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'noto_sans-thin';
+    src: url('font/Noto_Sans/NotoSans-Thin.ttf');
+}
+
+* {
+    font-family: 'noto_sans';
+}
+
+@media only screen and (max-width: 320px) {
+    body {
+        padding: 0;
+        margin: 0;
+        max-width: 320px;
+    }
+
+    .top {
+        width: 100%;
+        border: 1px solid black;
+        padding-top: 3%;
+        padding-bottom: -100em;
+        overflow: hidden;
+    }
+
+    #logo {
+        width: 15%;
+        margin-left: -4%;
+    }
+
+    #link-title {
+        margin-left: -180%;
+    }
+
+    
+    .title a {
+        font-size: 1.3em;
+        text-align: center;
+        margin-left: 10%;
+        text-decoration: none;
+    }
+
+    #nav-link {
+        display: none;
+    }
+
+    #hamburger {
+        display: block;
+        width: 100%;
+        font-size: 1.5em;
+        text-align: center;
+        margin-left: 390%;
+        margin-top: -118%;
+        color: #69c6ba;
+        overflow: hidden;
+    }
+
+    #image_bckgrd {
+        display: none;
+    }
+
+    .img-overlay {
+        width: 100%;
+        height: 100%;
+        background-image: url(img/banner.jpg);
+        background-position: center;
+        background-size: cover;
+        border: 1px solid red;
+        margin-top: -11%;
+    }
+
+    #txt1 {
+        position: absolute;
+        color: white;
+        text-align: center;
+        font-family: Calibri;
+        font-size: 2.5em;
+        margin-top: -87%;
+        margin-left: 21%;
+        overflow: hidden;
+    }
+
+    #dots {
+        position: absolute;
+        margin-top: -67%;
+        width: 8px;
+    }
+
+    #txt2 {
+        position: absolute;
+        margin-top: -55%;
+        margin-left: 7%;
+        font-size: 1.3em;
+    }
+
+    #dwn-btn {
+        position: absolute;
+        margin-top: -45%;
+        margin-left: -8.5%;
+        width: 60px;
+    }
+
+    .gradient1 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7));
+        padding-bottom: 30px;
+    }
+
+    .form1 {
+        width: 290px;
+        height: 600px;
+        position: relative;
+        margin-top: 20%;
+        background-color: white;
+        padding: 5px;
+        overflow: hidden;
+        border: 1px solid black;    
+    }
+
+    #txt3 {
+        font-size: 0.8em;
+        padding-top: 4px;
+        margin-right: 35%;
+    }
+    
+    #input1 {
+        margin-right: 25%;
+    }
+    
+    #input1 input {
+        width: 15em;
+        border: none;
+        font-family: 'noto_sans-light';
+        font-weight: lighter;
+        font-size: 0.8em;
+        margin-left: 7%;
+        padding: 5px;
+    }
+    
+    #txt4 {
+        font-size: 0.8em;
+        padding-top: 20px;
+        margin-right: 60%;
+        margin-top: 85%;
+    }
+    
+    #input2 {
+        margin-right: 50%;
+    }
+    
+    #input2 input {
+        width: 8em;
+        margin-bottom: -100%;
+        border: none;
+        font-family: 'noto_sans-light';
+        font-weight: lighter;
+        font-size: 0.8em;
+        padding: 5px;
+    }
+    
+    #txt5 {
+        font-size: 0.8em;
+        padding-top: 17px;
+        margin-right: 56%;
+        margin-top: 9%;
+    }
+    
+    #input3 {
+        margin-right: 22.5%;
+    }
+    
+    #input3 input {
+        width: 8em;
+        margin-bottom: -100%;
+        margin-right: 35%;
+        border: none;
+        font-family: 'noto_sans-light';
+        font-weight: lighter;
+        font-size: 0.8em;
+        padding: 5px;
+    }
+    
+    #txt6 {
+        font-size: 0.8em;
+        padding-top: 10px;
+        margin-left: -48%;
+        margin-top: -130%;
+    }
+    
+    #room-list {
+        margin-bottom: -100%;
+        margin-left: -22%;
+        width: 15em;
+        border: none;
+        font-family: 'noto_sans-light';
+        font-weight: lighter;
+        font-size: 0.8em;
+        padding: 5px;
+        color: gray;
+    }
+    
+    #txt7 {
+        font-size: 0.8em;
+        padding-top: 22.5px;
+        margin-left: -76%;
+        margin-top: 8%;
+    }
+    
+    #adult-list {
+        margin-bottom: -100%;
+        margin-left: -66%;
+        width: 5em;
+        border: none;
+        font-family: 'noto_sans-light';
+        font-weight: lighter;
+        font-size: 0.8em;
+        padding: 5px;
+        color: gray;
+    }
+    
+    #txt8 {
+        font-size: 0.8em;
+        padding-top: 22.5px;
+        margin-left: -70%;
+        margin-top: 8%;
+    }
+    
+    #child-list {
+        margin-bottom: -100%;
+        margin-left: -66%;
+        width: 5em;
+        border: none;
+        font-family: 'noto_sans-light';
+        font-weight: lighter;
+        font-size: 0.8em;
+        padding: 5px;
+        color: gray;
+    }
+    
+    #chk-btn {
+        color: white;
+        background-color: #69c6ba;
+        font-family: 'noto_sans-light';
+        font-weight: lighter;
+        font-size: 0.8em;
+        cursor: pointer;
+        border: none;
+        padding: 13px;
+        width: 92%;
+        margin-left: 0%;
+        margin-top: 80%;
+        margin-bottom: -100%;
+    }
+
+    #title2 {
+        font-size: 1.5em;
+    }
+
+    #txt9 {
+        font-size: 0.6em;
+        width: 85%;
+    }
+
+    .txtfill1 {
+        z-index: 2;
+        width: 342px;
+        height: 270px;
+        position: relative;
+        margin-top: 70%;
+        margin-left: -10%;
+        background-color: #69c6ba;
+        color: white;
+        padding: 5px;
+        overflow: hidden;
+    }
+
+    .txtfill1 p {
+        width: 85%;
+        margin-top: 7%;
+        margin-left: 7%;
+    }
+
+    #topic {
+        font-size: 1.1em;
+        margin-left: 8%;
+    }
+
+    #elebs {
+        font-size: 0.6em;
+        margin-left: 8%;
+        width: 5%;
+        text-align: center;
+    }
+
+    #read-btn {
+        color: #69c6ba;
+        background-color: white;
+        font-family: 'noto_sans-light';
+        font-weight: lighter;
+        font-size: 0.6em;
+        margin-left: 8%;
+        cursor: pointer;
+        border: none;
+        padding: 15px;
+    }
+
+    .slides {
+        inset: 0;
+        opacity: 0;
+        transition: 200ms opacity ease-in-out;
+        transition-delay: 200ms;
+    }
+      
+    .slides > img {
+        display: block;
+        width: 100%;
+        margin-top: -175%;
+        object-fit: cover;
+    }
+
+    #slid1 {
+        margin-top: -35.7%;
+    }
+}
