@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="math.js"></script>
+    <title>Math Guess (Addition)</title>
+</head>
+<body onload="addition(), generateRandomColor()">
+    <center>
+        <div class="form">
+            <div class="navbar">
+                <a href="index.html">Addition</a>
+                <a href="substract.html">Substract</a>
+                <a href="multiple.html">Multiplication</a>
+                <a href="division.html">Division</a>
+            </div>
+            <div class="question">
+                <p id="add_quest"></p>
+            </div>
+            <div class="answers">
+                <p><button id="slotAnswr1" onclick="ChkAnswer(1)">A. <label id="answr1"></label></button></p>
+                <p><button id="slotAnswr2" onclick="ChkAnswer(2)">B. <label id="answr2"></label></button></p>
+                <p><button id="slotAnswr3" onclick="ChkAnswer(3)">C. <label id="answr3"></label></button></p>
+            </div>
+        </div>
+    </center>
+</body>
+</html>

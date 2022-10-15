@@ -1,0 +1,54 @@
+
+.form {
+    width: 60%;
+    background-image: linear-gradient(pink, #d5aafd);
+    padding-top: 5%;
+    padding-bottom: 10%;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.navbar {
+    margin-top: 5%;
+}
+
+.navbar a {
+    background-color: aqua;
+    color: darkorange;
+    text-decoration: none;
+    font-family: arial;
+    font-weight: bolder;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.navbar a:hover {
+    background-color: yellow;
+    color: red;
+    border: 5px solid black;
+}
+
+.question {
+    margin-top: 5%;
+    background-color: white;
+    font-weight: bold;
+    width: 15%;
+    padding: 5px;
+    border: 2px solid black;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.answers {
+    margin-top: 5%;
+}
+
+#slotAnswr1, #slotAnswr2, #slotAnswr3 {
+    background-color: transparent;
+    text-align: left;
+    padding: 10px;
+    border: 2px solid black;
+    width: 10%;
+    cursor: pointer;
+}
